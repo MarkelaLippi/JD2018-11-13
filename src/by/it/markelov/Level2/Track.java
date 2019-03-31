@@ -2,11 +2,11 @@ package by.it.markelov.Level2;
 
 public class Track {
     private String name;
-    private double duration;
+    private int duration;
 
     public Track(String name, int minLength, int maxLength) {
         this.name = name;
-        this.duration = minLength + (int) (Math.random() * (maxLength + 1));
+        this.duration = Util.random(minLength, maxLength);
     }
 
     public String getName() {
@@ -21,7 +21,9 @@ public class Track {
         this.name = name;
     }
 
-    public void setDuration(double duration) {
+    public void setDuration(int duration) {
         this.duration = duration;
     }
+
+
 }

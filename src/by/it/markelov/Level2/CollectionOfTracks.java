@@ -20,5 +20,6 @@ public class CollectionOfTracks {
     public void add(Track track) {
         trackArrayList.add(track);
     }
+
 }
 
