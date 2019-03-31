@@ -2,26 +2,26 @@ package by.it.markelov.Level2;
 
 public class Album {
     private String name;
-    private CollectionOfTracks collectionOfTrack;
+    private CollectionOfTracks collectionOfTracks;
 
-    public Album(String name, CollectionOfTracks collectionOfTrack) {
+    public Album(String name, CollectionOfTracks collectionOfTracks) {
         this.name = name;
-        this.collectionOfTrack = collectionOfTrack;
+        this.collectionOfTracks = collectionOfTracks;
     }
 
     public String getName() {
         return name;
     }
 
-    public CollectionOfTracks getCollectionOfTrack() {
-        return collectionOfTrack;
+    public CollectionOfTracks getCollectionOfTracks() {
+        return collectionOfTracks;
     }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setCollectionOfTrack(CollectionOfTracks collectionOfTrack) {
-        this.collectionOfTrack = collectionOfTrack;
+    public void setCollectionOfTracks(CollectionOfTracks collectionOfTracks) {
+        this.collectionOfTracks = collectionOfTracks;
     }
 }

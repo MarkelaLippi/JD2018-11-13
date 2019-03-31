@@ -13,7 +13,7 @@ public class Track {
         return name;
     }
 
-    public double getDuration() {
+    public int getDuration() {
         return duration;
     }
 
