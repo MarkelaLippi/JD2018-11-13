@@ -1,4 +1,4 @@
-package by.it.markelov.Level2;
+package by.it.markelov.task01;
 
 public class Track {
     private String name;

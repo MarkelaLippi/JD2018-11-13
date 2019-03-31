@@ -1,4 +1,4 @@
-package by.it.markelov.Level2;
+package by.it.markelov.task01;
 
 import java.util.ArrayList;
 
@@ -7,6 +7,10 @@ public class CollectionOfTracks {
 
     public CollectionOfTracks() {
         trackArrayList = new ArrayList<>();
+    }
+
+    public CollectionOfTracks(ArrayList<Track> tracks) {
+        trackArrayList = tracks;
     }
 
     public ArrayList<Track> getTrackArrayList() {
